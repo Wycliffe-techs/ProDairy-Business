@@ -1,8 +1,8 @@
 .dairy{
     
-    min-height: 600px;
+    /* min-height: 600px; */
     background-image: url(imgs/pic\ 1.jpeg);
-background-repeat: repeat-x;
+background-repeat: no-repeat;
  
   }
   * {box-sizing:border-box}
@@ -17,6 +17,7 @@ background-repeat: repeat-x;
 /* Hide the images by default */
 .mySlides {
   display: none;
+  
 }
 
 /* Next & previous buttons */

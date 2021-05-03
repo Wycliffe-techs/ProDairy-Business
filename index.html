@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Prodairy Business</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+<body>
+    <header  class="dairy">
+
+<h1 style="color: white;text-align: center; font-size:xx-large;padding-top:50px;">PRODAIRY BUSINESS</h1>
+      </header>
+      <div class="Gallery">
+          
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="imgs/slide3.jpg" style="width:100%">
+      <div class="text" style="padding-bottom: 200px;"> 
+        <h1>FARM Resources</h1>
+        <p>
+          Dig into the resources that provide all the information needed to participate in FARM.</p>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="imgs/slide5.jpg" style="width:100%">
+      <div class="text" style ="padding-bottom: 200px;">
+        <h1>We Set the Standards.</h1>
+        <p>#FARMProud farmers are committed to continuous improvement in all aspects of dairy farming: animal care,<br> environmental and antibiotic stewardship, and workforce development.</p>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="imgs/slide 6.jpeg" style="width:100%">
+      <div class="text" style="padding-bottom: 200px;font:xx;"> <h1>Kenyan dairy farmers dedicated to healthy cows and wholesome milk</h1></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+<div class="row" style="margin-top: 10px; box-shadow: 5px 5px 5px; ">
+    <div class="col-md-6">
+
+        <img src="imgs/images (2).jpeg" alt="">
+       
+    </div>
+    
+    <div class="col-md-6">
+         <h4>About Us</h4>
+<p>Prodairy EA Ltd assists farmers with master-plans, well designed, modern, efficient cow housing, farm buildings and structures based on the latest research and technology. We are the dealers of state of the art cow barn equipment (https://www.agriprom.nl) and herd management systems which guarantees cow and working comfort. Currently mainly headlocks and cubicles.</p>
+</div>
+
+</div>
+<div class="product1">
+<!-- <h4 style="text-align: center; color: white;font-size: larger; padding-top: 30px;">Our Products</h4> -->
+<h3 style="text-align:center;font-size: xx-large; padding-top: 10px;">Farm and You</h3>
+<P style="text-align: center;">Through our four program silos, FARM works with dairy producers, cooperatives, <br> and industry partners to demonstrate the highest standards on Kenyan dairy farms.</P>
+<div class="row" style="margin-left: 100px;">
+    <div class="col-md-4" style=" height:300px; width: 400px;">
+      <img src="imgs/download (1).jpeg" alt="" style="height: 300px; width: 350px;">
+       
+    </div>
+    <div class="col-md-4" style="text-align:center; background-color:darkgreen;height:300px;width: 350px; padding-top: 100px; margin-left:-40px;">
+<h4>Animal Care</h4>
+<H5>Demonstrating Exellent Cow Care</H5>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+    </div>
+    
+    <div class="col-md-4" style="background-color: blue; height: 300px; width: 350px; text-align: center;">
+        <h4 style="padding-top: 100px; ">Environment</h4>
+    <h5>Protecting the Environment for Generations to come</h5>
+    
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+       
+
+
+</div>
+
+
+</div>
+<div class="row" style="margin-left: 114px;">
+
+  
+  <div class="col-md-4" style="background-color:gray;height:300px;width: 350px; padding-top: 100px;text-align: center; ">
+<h4>Antibiotics</h4>
+<H5>Producing Safe, Wholesale Milk</H5>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+  </div>
+  
+  <div class="col-md-4" style="background-color:yellow; height: 300px; width: 350px;text-align: center;">
+      <h4 style="padding-top: 100px;">Work Force Development</h4>
+  <h5>Ensuring Safe,expetional Work Environment</h5>
+  <button onclick="myFunction()" id="myBtn">Read more</button>
+      </div>
+      <div class="col-md-4" style=" height:300px; width: 400px;">
+        <img src="imgs/download (2).jpeg" alt="" style="height: 300px; width: 350px; margin-left: -15px;">
+    </div>
+    </div> 
+    
+    <div style="background-color: blue;height: 300px;" class="row">
+      
+        <div class="col-md-6" style="padding-top: 50px; color: white; text-align: center;">
+          
+<h6>What is Farm?</h6>
+<p>
+FARMProud Participants<br>
+How to Participate<br>
+Meet the Team<br>
+#FARMProud Farmers<br>
+
+</p>
+</div>
+   
+    <div class="col-md-6" style="color:white ;padding-top: 50px;">
+ <h6>Farm Resources</h6>
+    <p>
+        FARM Resources<br>
+        Dairy Stockmanship<br>
+        Environment<br>
+        FARM Animal Care Evaluation Prep<br>
+        Herd Health & Protocols<br>
+        Worker Safety & Human Resources<br>
+        Resource library
+    </p>
+
+   
+    <H6 style="color:black; padding-top: 18px;">Copyright 2021</H6>
+
+        
+    </div>
+        
+            </div>
+     
+        
+              
+    
+
+</body>
+</html>
+   

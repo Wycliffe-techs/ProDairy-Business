@@ -12,6 +12,7 @@ background-repeat: repeat-x;
   max-width: 2000px;
   position: relative;
   margin-top: -420px;
+  background-color:grey;
 }
 
 /* Hide the images by default */
@@ -148,9 +149,13 @@ ul {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
-  background-color: #04AA6D;
+  background-color: grey;
 }
 .outputcontainer {
   display: flex;
   justify-content: center;
+  background-color:grey;
+  width: 50%;
+  height: 40%;
+  margin-left: 25%;
 }

@@ -144,3 +144,9 @@ ul {
   display: none;
   background-color: blue;
 }
+.table, th, td, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #04AA6D;
+}

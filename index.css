@@ -150,3 +150,7 @@ ul {
   text-align: center;
   background-color: #04AA6D;
 }
+.outputcontainer {
+  display: flex;
+  justify-content: center;
+}
